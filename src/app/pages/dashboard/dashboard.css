@@ -1,11 +1,13 @@
 .header {
     background-color: #242B35 ;
     padding: 20px;
-    padding-left: 350px;
-    padding-right: 350px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 .logo {
     margin-left: 20px;
+    width: 1100px;
     
 .txt-header{
     margin-top: 4px;
@@ -35,8 +37,9 @@
 }
 .saldo {
     background-color:#0f1419;
-    padding-left: 350px;
-    padding-right:350px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
     padding-top: 30px;
     padding-bottom: 30px;
 }
@@ -48,6 +51,7 @@
     padding-left: 20px;
     padding-right: 10px;
     border-color: transparent;
+    width: 1100px;
 }
 .disponivel {
     color: black;
@@ -102,14 +106,17 @@ h2{
 
 .estacionamento {
     background-color: #0f1419;
-     padding-left: 350px;
-      padding-right: 350px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 .pontilhamento {
       border: 2px solid #0f1419;
       background-color: #181d25;
       padding-top: 40px;
       padding: 60px;
+      width: 1100px;
+      
 }
 .carro {
     display: flex;
@@ -152,6 +159,11 @@ h2{
     box-shadow: 0 0 40px rgba(0, 191, 255, 0.4);
     border: none;
     cursor: pointer;
+    transition: all 0.5s;
+}
+.botao-mapa:hover {
+    transform: scale(1.10);
+
 }
 
 /* dividindo as divs */
@@ -179,14 +191,9 @@ h2{
     transform: scale(1.05);
     background-color: #2f7ea4;
 }
-@media (min-width: 800px) {
-    .tres{
-        min-width: 200px;
-    }    
-}
 @media (min-width: 1200px){
     .tres{
-        min-width: 390px;
+        min-width: 355px;
     }
 }
 .maps {
