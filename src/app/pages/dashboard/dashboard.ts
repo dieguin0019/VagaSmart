@@ -2,12 +2,13 @@ import { Component, inject } from '@angular/core';
 import { LucideAngularModule } from 'lucide-angular';
 import { Dialog } from '@angular/cdk/dialog';
 import { ModalComponent } from '../../components/modal/modal';
+import { Footer } from "../../components/footer/footer";
 
 
 @Component({
   selector: 'app-dashboard',
   standalone: true,
-  imports: [LucideAngularModule],
+  imports: [LucideAngularModule, Footer],
   templateUrl: './dashboard.html',
   styleUrls: ['./dashboard.css'],
 })
